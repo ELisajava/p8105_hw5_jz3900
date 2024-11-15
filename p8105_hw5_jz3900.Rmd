@@ -9,3 +9,10 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Import necessary libraries
+```{r}
+library(tidyverse) 
+library(broom)
+library(ggplot2)
+set.seed(1)
+```
